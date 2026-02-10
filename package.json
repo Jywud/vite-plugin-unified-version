@@ -1,0 +1,31 @@
+{
+  "name": "vite-plugin-unified-version",
+  "version": "1.0.0",
+  "description": "A Vite plugin to inject Git commit ID and build time into HTML meta tags and window object",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "version",
+    "git",
+    "build-time",
+    "meta"
+  ],
+  "author": "jywud",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jywud/vite-plugin-unified-version"
+  },
+  "bugs": {
+    "url": "https://github.com/jywud/vite-plugin-unified-version/issues"
+  },
+  "homepage": "https://github.com/jywud/vite-plugin-unified-version#readme",
+  "peerDependencies": {
+    "vite": ">=3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

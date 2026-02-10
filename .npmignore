@@ -1,0 +1,36 @@
+# 开发与测试文件
+test/
+__tests__/
+*.test.js
+*.spec.js
+coverage/
+
+# 开发环境与配置
+.env
+.env.*
+.vscode/
+.idea/
+*.log
+
+# 构建与打包工具配置
+rollup.config.*
+webpack.config.*
+vite.config.*
+tsconfig.json
+
+# 源代码（如果你有 src/ 目录且主入口在根目录）
+src/
+# 注意：如果你的 index.js 在 src/ 里，则不要忽略 src/
+
+# 文档与变更记录（通常 npm 只发布 README 和 LICENSE）
+CHANGELOG.md
+TODO.md
+
+# Git 相关
+.gitignore
+.gitattributes
+
+# 其他
+node_modules/
+.DS_Store
+Thumbs.db
